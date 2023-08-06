@@ -5,9 +5,537 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f68076;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.titre {
+  background: url('./assets/titre.jpg') no-repeat center center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #FEC56C;
+}
+
+.experiment {
+  background: url('./assets/experiment.png') no-repeat;
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  left: 2.7%;
+  top: 5.8%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.knowmore{
+  background: url('./assets/know.png') no-repeat;
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  left: 11.8%;
+  top: 5.8%;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 40%;
+  transition: 0.3s ease;
+}
+
+.knowmore:hover {
+  opacity: 100%;
+}
+
+.shop {
+  background: url('./assets/shop.png') no-repeat;
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  left: 21%;
+  top: 5.8%;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 40%;
+  transition: 0.3s ease;
+}
+
+.shop:hover {
+  opacity: 100%;
+  position: fixed;
+}
+
+.share {
+  background: url('./assets/share.png') no-repeat;
+  width: 50px;
+  height: 100vh;
+  z-index: 10;
+  left: 40px;
+  top: 665px;
+  position: fixed;
+  opacity: 40%;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.share:hover {
+  opacity: 100%;
+  position: fixed;
+}
+
+.NightRider {
+  background: url('./assets/fond18.jpg') no-repeat center center;
+  left: 0px;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+  background-size: 1071px;
+}
+
+.nightbike {
+  background: url('./assets/nightbike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.traveller {
+  background: url('./assets/travbg.jpg') no-repeat center center;
+  background-color: #f4d0ad;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.travelbike {
+  background: url('./assets/traveler.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.weirdobg {
+  background: url('./assets/weirdo.jpg') no-repeat center center;
+  background-color: #b1deed;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.weirdobike {
+  background: url('./assets/weirdo.png')50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.hipsterbg {
+  background: url('./assets/hipster.jpg') no-repeat center center;
+  background-color: #f79cc1;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hipsterbike {
+  background: url('./assets/hipsterbike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.swagbike {
+  background: url('./assets/swaggerbike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.vintbg {
+  background: url('./assets/vintbg.jpg') no-repeat center center;
+  background-color: #f8d5b8;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.vintbike {
+  background: url('./assets/vintbike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.gpabg {
+  background: url('./assets/gpabg.jpg') no-repeat center center;
+  background-color: #a0e3ff;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.gpabike {
+  background: url('./assets/gpabike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.tanbg {
+  background: url('./assets/tanbg.jpg') no-repeat center center;
+  background-color: #f7ca7d;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.tanbike {
+  background: url('./assets/tanbike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.bbdollbg {
+  background: url('./assets/bbdollbg.jpg') no-repeat center center;
+  background-color: #fbdff8;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.bbdollbike {
+  background: url('./assets/bbdollbike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.cougarbg {
+  background: url('./assets/cougarbg.jpg') no-repeat center center;
+  background-color: #c6deff;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.cougarbike {
+  background: url('./assets/cougarbike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.freebg {
+  background: url('./assets/freebg.jpg') no-repeat center center;
+  background-color: #91f9d3;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.freebike {
+  background: url('./assets/freebike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.ogbg {
+  background: url('./assets/ogbg.jpg') no-repeat center center;
+  background-color:#f8c075;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.ogbike {
+  background: url('./assets/ogbike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.lilgbg {
+  background: url('./assets/lilgbg.jpg') no-repeat center center;
+  background-color:#ffd4ab;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.lilgbike {
+  background: url('./assets/lilgbike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.runnerbg {
+  background: url('./assets/runnerbg.jpg') no-repeat center center;
+  background-color:#b2fad7;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.runnerbike {
+  background: url('./assets/runnerbike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.rigidbg {
+  background: url('./assets/rigidbg.jpg') no-repeat center center;
+  background-color:#dbdbdb;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.rigidbike {
+  background: url('./assets/rigidbike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.warbg {
+  background: url('./assets/warbg.jpg') no-repeat center center;
+  background-color:#fddcae;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.warbike {
+  background: url('./assets/warbike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.lazybg {
+  background: url('./assets/lazybg.jpg') no-repeat center center;
+  background-color:#fb9d79;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.lazybike {
+  background: url('./assets/lazybike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.fakebg {
+  background: url('./assets/fakebg.jpg') no-repeat center center;
+  background-color:#f6978f;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.fakebike {
+  background: url('./assets/fakebike.png') 50% 79% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.end {
+  background-color: #f68076;
+  background-size: 1071px;
+  height: 100vh;
+  width: 100%;
+  padding-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hey {
+  background: url('./assets/hey.png') 50% 30% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.order {
+  background: url('./assets/order.png')50% 50% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.and {
+  background: url('./assets/and.png') 50% 75% no-repeat fixed;
+  height: 120%;
+  padding: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 10;
+  top: 0px;
+}
+
+.line1 {
+  background: url('./assets/line.png') 50% 60% no-repeat fixed;
+  height: 70%;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  top: 0px;
+}
+
+.line2 {
+  background: url('./assets/line.png') 50% 40% no-repeat fixed;
+  height: 70%;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  top: 0px;
+}
+
+.arrow {
+  background: url('./assets/fleche2.png') no-repeat;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  left: 49%;
+  top: 93.5%;
+  position: fixed;
+  opacity: 65%;
+  cursor: pointer;
 }
