@@ -2,6 +2,7 @@ import './App.css';
 import './button.css';
 import ScrollProg from './components/ScrollProg/scrollProg';
 import React from 'react';
+import styled from 'styled-components';
 
 function App() {
   return (

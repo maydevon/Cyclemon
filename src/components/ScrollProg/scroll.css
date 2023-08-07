@@ -4,7 +4,7 @@
     top: 45px;
     left: 96%;
     position: fixed;
-    z-index: 11;
+    z-index: 10;
 }
 
 li:hover {
@@ -18,5 +18,4 @@ li {
     padding: 9px;
     opacity: 50%;
     cursor: pointer;
-    z-index: 11;
 }
